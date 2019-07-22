@@ -1,0 +1,55 @@
+.App {
+  background: #fff;
+  width: 100%;
+}
+
+#nav-bar {
+  position: -webkit-sticky;
+  position: sticky;
+  margin: 0 10%;
+}
+
+#nav-bar #logo {
+  color: #535b6c;
+  display: inline-block;
+  padding: 10px 20px;
+}
+
+#nav-bar #nav-links {
+  padding-left: 10px;
+  border-left: solid #a2a6ad 2px;
+  display: inline-block;
+  list-style: none;
+}
+
+#nav-bar #nav-links > li {
+  display: inline-block;
+  padding: 0px 10px;
+}
+
+#nav-bar #nav-links > li > a {
+  text-decoration: none;
+  color: #a2a6ad;
+  font-weight: 600;
+}
+
+#nav-bar #nav-links > li > a :nth-child(1) {
+  color: #535b6c;
+}
+
+#first-section #headline::before {
+  content: "WE AIM TO THE SKY";
+  color: #66ccff;
+  font-size: 12px;
+  display: block;
+}
+
+#first-section #headline {
+  color: #666;
+  font-size: 40px;
+}
+
+#first-section #headline #red-headline {
+  color: #f66;
+}
+/*# sourceMappingURL=App.css.map */

@@ -5,6 +5,7 @@ import down_symbol from '../assets/down_symbol.png'
 
 function FirstSection(props){
     return (
+        <div id="first-section-container">
         <div id="first-section">
             <div id="first-section-left">
             <h1 id="headline">A <strong id = "red-headline">Digital Creative<br/>Agency</strong> from Denmark</h1>
@@ -13,13 +14,14 @@ function FirstSection(props){
             at lobortis dui faucibus eget.Ut facilisis arcu vitae dui dui faucibus eget Ut facilisis vestibulum bibendum.<br/>
             mattis ut praesent blandit dignissim elit<br/>
              </p>
+             <div id="scroll-for-more">
+             <img src={down_symbol} alt="down symbol" />
+             <h5>SCROLL FOR MORE</h5>
+             </div>
              </div>
              <div id="first-section-right">
              <img src={denmark} alt="denmark"/>
              </div>
-             <div id="scroll-for-more">
-             <img src={down_symbol} alt="down symbol" />
-             <h5>SCROLL FOR MORE</h5>
              </div>
         </div>
 
